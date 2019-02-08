@@ -1,0 +1,6 @@
+C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.Comum.Repositorios.Interfaces\bin\Debug\TreinaWeb.Comum.Repositorios.Interfaces.dll
+C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.Comum.Repositorios.Interfaces\bin\Debug\TreinaWeb.Comum.Repositorios.Interfaces.pdb
+C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.Comum.Repositorios.Interfaces\obj\Debug\TreinaWeb.Comum.Repositorios.Interfaces.csprojAssemblyReference.cache
+C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.Comum.Repositorios.Interfaces\obj\Debug\TreinaWeb.Comum.Repositorios.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.Comum.Repositorios.Interfaces\obj\Debug\TreinaWeb.Comum.Repositorios.Interfaces.dll
+C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.Comum.Repositorios.Interfaces\obj\Debug\TreinaWeb.Comum.Repositorios.Interfaces.pdb
