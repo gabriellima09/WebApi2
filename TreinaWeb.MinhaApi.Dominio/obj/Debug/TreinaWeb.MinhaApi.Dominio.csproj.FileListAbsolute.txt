@@ -4,3 +4,9 @@ C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.MinhaApi.Domini
 C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.MinhaApi.Dominio\obj\Debug\TreinaWeb.MinhaApi.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.MinhaApi.Dominio\obj\Debug\TreinaWeb.MinhaApi.Dominio.dll
 C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.MinhaApi.Dominio\obj\Debug\TreinaWeb.MinhaApi.Dominio.pdb
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.MinhaApi.Dominio\bin\Debug\TreinaWeb.MinhaApi.Dominio.dll
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.MinhaApi.Dominio\bin\Debug\TreinaWeb.MinhaApi.Dominio.pdb
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.MinhaApi.Dominio\obj\Debug\TreinaWeb.MinhaApi.Dominio.csprojAssemblyReference.cache
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.MinhaApi.Dominio\obj\Debug\TreinaWeb.MinhaApi.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.MinhaApi.Dominio\obj\Debug\TreinaWeb.MinhaApi.Dominio.dll
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.MinhaApi.Dominio\obj\Debug\TreinaWeb.MinhaApi.Dominio.pdb

@@ -12,3 +12,17 @@ C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.Comum.Repositor
 C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.Comum.Repositorios.Entity\obj\Debug\TreinaWeb.Comum.Repositorios.Entity.csproj.CopyComplete
 C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.Comum.Repositorios.Entity\obj\Debug\TreinaWeb.Comum.Repositorios.Entity.dll
 C:\Users\gabriel.gomes\source\repos\TreinaWeb.MinhaApi\TreinaWeb.Comum.Repositorios.Entity\obj\Debug\TreinaWeb.Comum.Repositorios.Entity.pdb
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\bin\Debug\TreinaWeb.Comum.Repositorios.Entity.dll.config
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\bin\Debug\TreinaWeb.Comum.Repositorios.Entity.dll
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\bin\Debug\TreinaWeb.Comum.Repositorios.Entity.pdb
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\bin\Debug\EntityFramework.dll
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\bin\Debug\TreinaWeb.Comum.Repositorios.Interfaces.dll
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\bin\Debug\TreinaWeb.Comum.Repositorios.Interfaces.pdb
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\bin\Debug\EntityFramework.xml
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\obj\Debug\TreinaWeb.Comum.Repositorios.Entity.csprojAssemblyReference.cache
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\obj\Debug\TreinaWeb.Comum.Repositorios.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\obj\Debug\TreinaWeb.Comum.Repositorios.Entity.csproj.CopyComplete
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\obj\Debug\TreinaWeb.Comum.Repositorios.Entity.dll
+C:\Users\Gabriel\source\repos\WebApi2\TreinaWeb.Comum.Repositorios.Entity\obj\Debug\TreinaWeb.Comum.Repositorios.Entity.pdb

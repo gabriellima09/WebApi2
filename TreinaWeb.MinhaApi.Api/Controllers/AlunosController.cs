@@ -8,6 +8,7 @@ using TreinaWeb.Comum.Repositorios.Interfaces;
 using TreinaWeb.MinhaApi.AcessoDados.Entity;
 using TreinaWeb.MinhaApi.Api.AutoMapper;
 using TreinaWeb.MinhaApi.Api.DTOs;
+using TreinaWeb.MinhaApi.Api.Filters;
 using TreinaWeb.MinhaApi.Dominio;
 using TreinaWeb.MinhaApi.Repositorios.Entity;
 
@@ -31,7 +32,7 @@ namespace TreinaWeb.MinhaApi.Api.Controllers
             if (!id.HasValue)
                 return BadRequest();
 
-            Aluno aluno =_repositorioAlunos.SelecionarPorId(id.Value);
+            Aluno aluno = _repositorioAlunos.SelecionarPorId(id.Value);
 
             if (aluno == null)
                 return NotFound();
@@ -41,37 +42,35 @@ namespace TreinaWeb.MinhaApi.Api.Controllers
             return Content(HttpStatusCode.Found, aluno);
         }
 
+        [ApplyModelValidation]
         public IHttpActionResult Post([FromBody]AlunoDTO dto)
         {
-            if (ModelState.IsValid)
+            try
             {
-                try
-                {
-                    Aluno aluno = AutoMapperManager.Instance.Mapper.Map<AlunoDTO, Aluno>(dto);
+                Aluno aluno = AutoMapperManager.Instance.Mapper.Map<AlunoDTO, Aluno>(dto);
 
-                    _repositorioAlunos.Inserir(aluno);
-                    return Created($"{Request.RequestUri}/{aluno.Id}", aluno);
-                }
-                catch (Exception ex)
-                {
-                    return InternalServerError(ex);
-                }
+                _repositorioAlunos.Inserir(aluno);
+                return Created($"{Request.RequestUri}/{aluno.Id}", aluno);
             }
-            else
+            catch (Exception ex)
             {
-                return BadRequest(ModelState);
+                return InternalServerError(ex);
             }
         }
 
-        public IHttpActionResult Put(int? id, [FromBody]Aluno aluno)
+        [ApplyModelValidation]
+        public IHttpActionResult Put(int? id, [FromBody]AlunoDTO dto)
         {
             try
             {
                 if (!id.HasValue)
                     return BadRequest();
 
+                Aluno aluno = AutoMapperManager.Instance.Mapper.Map<AlunoDTO, Aluno>(dto);
+
                 aluno.Id = id.Value;
                 _repositorioAlunos.Atualizar(aluno);
+
                 return Ok();
             }
             catch (Exception ex)
