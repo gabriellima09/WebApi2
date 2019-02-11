@@ -14,6 +14,7 @@ using TreinaWeb.MinhaApi.Repositorios.Entity;
 
 namespace TreinaWeb.MinhaApi.Api.Controllers
 {
+    [RoutePrefix("api/alunos")]
     public class AlunosController : ApiController
     {
         private IRepositorioTreinaWeb<Aluno, int> _repositorioAlunos
@@ -39,7 +40,15 @@ namespace TreinaWeb.MinhaApi.Api.Controllers
 
             AlunoDTO dto = AutoMapperManager.Instance.Mapper.Map<Aluno, AlunoDTO>(aluno);
 
-            return Content(HttpStatusCode.Found, aluno);
+            return Content(HttpStatusCode.OK, aluno);
+        }
+
+        [Route("por-nome/(nomeAluno)")]
+        public IHttpActionResult Get(string nomeAluno)
+        {
+            List<Aluno> alunos = _repositorioAlunos.Selecionar(s => s.Nome.ToLower().Contains(nomeAluno.ToLower()));
+            List<AlunoDTO> dto = AutoMapperManager.Instance.Mapper.Map<List<Aluno>, List<AlunoDTO>>(alunos);
+            return Ok(dto);
         }
 
         [ApplyModelValidation]
